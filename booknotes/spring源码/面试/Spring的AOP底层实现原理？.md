@@ -1,0 +1,11 @@
+
+动态代理
+
+AOP是IOC的一个扩展功能，先有IOC，再有的AOP，只是在IOC的整个流程中新增的一个扩展点而已：BeanPostProcessor
+
+Bean的创建过程中有一个步骤可以对Bean进行扩展实现，aop本身就是一个扩展功能，所以在BeanPostProcessor的后置处理方法中来进行实现
+1. 代理对象的创建过程（advice，切面，切点）
+2. 通过jdk或者cglib的方式来生成代理对象
+3. 在执行方法调用的时候，会调用到生成的字节码文件中，直接会找到DynamicAdvisoredInterceptor类中的Intercept方法，从此方法开始执行
+4. 根据之前定义好的通知来生成拦截器链
+5. 从拦截器链中依次获取每一个通知开始进行执行，在执行过程中，为了方便找到下一个通知是哪个，会有一个InvocationInterceptor对象，找的时候是从-1的位置依次开始查找并且执行的。

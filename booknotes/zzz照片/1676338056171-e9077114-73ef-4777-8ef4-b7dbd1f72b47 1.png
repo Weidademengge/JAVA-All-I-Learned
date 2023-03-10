@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>Request has expired.</Message>
+  <RequestId>63FC5825FA32857C84353CB2</RequestId>
+  <HostId>lark-assets-prod-aliyun.oss-accelerate.aliyuncs.com</HostId>
+  <Expires>2023-02-27T07:06:08.000Z</Expires>
+  <ServerTime>2023-02-27T07:13:41.000Z</ServerTime>
+  <EC>0002-00000069</EC>
+</Error>

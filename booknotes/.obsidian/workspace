@@ -1,0 +1,137 @@
+{
+  "main": {
+    "id": "264f8fa45cee9137",
+    "type": "split",
+    "children": [
+      {
+        "id": "efd610413f458a24",
+        "type": "leaf",
+        "state": {
+          "type": "image",
+          "state": {
+            "file": "2b30881c9a7646d8ba26877b0c250781 1.png"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f394629c378c21f6",
+    "type": "split",
+    "children": [
+      {
+        "id": "b6b91bb1a07c39fc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "34a2bf5ad82ebab0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "2b4d02567261c7d9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "892ab3bbd5030e99",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ef4489c85874b0d8",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a5085cdf30323c1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "50942d51b161a46b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2b30881c9a7646d8ba26877b0c250781 1.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "54570334c10cf6ec",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2b30881c9a7646d8ba26877b0c250781 1.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "640d7086420f0319",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1005905028a02447",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2b30881c9a7646d8ba26877b0c250781 1.png"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "efd610413f458a24",
+  "lastOpenFiles": [
+    "1.png.md",
+    "0a80a27cbfcf4086b06f7c496ae16e8f.png",
+    "分布式技术/nacos/nacos介绍.md",
+    "分布式技术/nacos/nacos如何配置.md",
+    "分布式技术/dubbo/源码/dubbo.md"
+  ]
+}
