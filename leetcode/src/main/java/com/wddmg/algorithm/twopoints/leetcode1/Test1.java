@@ -1,4 +1,4 @@
-package com.wddmg.leetcode.leetcode1;
+package com.wddmg.algorithm.twopoints.leetcode1;
 
 import java.util.Arrays;
 import java.util.HashMap;
