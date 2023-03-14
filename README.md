@@ -41,7 +41,7 @@ java文件在leetcode目录下com.wddmg.datastructure.linkedlist中
 
 ### 新增手写简易版Mybatis
 
-模块为write-openResource-mybatis，其中分为两个部分，一是测试的yourbatis_test以及yourbatis。详细内容可以看手写简易版Mybatis的笔记。**下面是笔记的连接**
+模块为write-openResource-mybatis，其中分为两个部分，一是测试的yourbatis_test以及yourbatis。详细内容可以看手写简易版Mybatis的笔记。**下面是笔记的地址**
 
-[booknotes/Mybatis/Mybatis源码/手写简易版Mybatis.md]
+booknotes/Mybatis/Mybatis源码/手写简易版Mybatis.md
 
