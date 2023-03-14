@@ -1,0 +1,14 @@
+<mapper namespace="Product">
+
+    <!--查询所有-->
+    <select id="selectList">
+        select * from product
+    </select>
+
+    <!--查询所有-->
+    <select id="selectOne">
+        select * from product where id = #{id} and username = #{username}
+    </select>
+
+
+</mapper>

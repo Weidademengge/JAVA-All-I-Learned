@@ -1,0 +1,15 @@
+<configuration>
+
+<!--    配置数据库信息-->
+    <dataSource>
+        <property name ="driverClassName" value="com.mysql.cj.jdbc.Driver"></property>
+        <property name ="url" value="jdbc:mysql://localhost:3306/test?serverTimezone=UTC&amp;useUnicode=true&amp;characterEncoding=utf8"></property>
+        <property name ="username" value="root"></property>
+        <property name ="password" value="root"></property>
+    </dataSource>
+<!--    引入映射配置文件-->
+    <mappers>
+        <mapper resource="mapper/UserMapper.xml"></mapper>
+    </mappers>
+
+</configuration>

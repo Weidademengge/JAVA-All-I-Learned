@@ -1,0 +1,24 @@
+<mapper namespace="com.wddmg.dao.IUserDao">
+
+    <!-- 唯一标识：namesapce.id statementId-->
+    <!--查询所有-->
+    <!--
+        规范：接口的全路径要和namespace的值保持一致
+            接口中的方法名要和id的值保持一致
+    -->
+    <select id="findAll" resultType="com.wddmg.pojo.User">
+        select * from user
+    </select>
+
+    <!--按条件查询-->
+    <!--
+        User user = new User()
+        user.setId(1);
+        user.setUserName("tom");
+     -->
+    <select id="findByCondition" resultType="com.wddmg.pojo.User" parameterType="com.wddmg.pojo.User">
+        select * from user where id = #{id} and username = #{username}
+    </select>
+
+
+</mapper>

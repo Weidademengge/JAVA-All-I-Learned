@@ -7,7 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="concurrent" />
+        <module name="yourbatis_test" />
         <module name="leetcode" />
+        <module name="yourbatis" />
       </profile>
     </annotationProcessing>
   </component>

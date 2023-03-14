@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/leetcode/pom.xml" />
         <option value="$PROJECT_DIR$/concurrent/pom.xml" />
+        <option value="$PROJECT_DIR$/write-openResource-mybatis/pom.xml" />
       </list>
     </option>
   </component>
