@@ -11,22 +11,8 @@
             "id": "051f05e8cac687e0",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "zzz照片/Pasted image 20230313104402.png"
-              }
-            }
-          },
-          {
-            "id": "f4c64eaffd432e48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mybatis/Mybatis架构原理和主要组件/Mybatis架构原理和主要组件.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -95,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zzz照片/Pasted image 20230313104402.png",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -112,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zzz照片/Pasted image 20230313104402.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "zzz照片/Pasted image 20230313104402.png"
-              }
+              "state": {}
             }
           },
           {
@@ -168,51 +150,52 @@
   },
   "active": "34a2bf5ad82ebab0",
   "lastOpenFiles": [
-    "Mybatis/Mybatis架构原理和主要组件/Mybatis架构原理和主要组件.md",
-    "zzz照片/Pasted image 20230314153129.png",
-    "Mybatis/Mybatis源码/手写简易版Mybatis.md",
-    "Mybatis/Mybatis面试题/Mybatis面试题.md",
-    "Mybatis/Mybatis源码/Mybatis源码.md",
-    "zzz照片/Pasted image 20230314140754.png",
-    "计算机基础/锁机制/ReentrantLock.md",
+    "计算机基础/设计模式/动态代理/动态代理.md",
     "计算机基础/锁机制/锁升级.md",
     "计算机基础/锁机制/锁.md",
     "计算机基础/锁机制/从 Atomic 到 CAS.md",
-    "计算机基础/java8/Stream.md",
-    "计算机基础/ClassLoader/ClassLoader.md",
-    "计算机基础/ClassLoader/jvm源码层面解析Class.forName和ClassLoader到底有什么区别？.md",
-    "zzz照片/Pasted image 20230314103720.png",
-    "zzz照片/Pasted image 20230314093333.png",
+    "计算机基础/锁机制/ReentrantLock.md",
+    "计算机基础/设计模式/单例模式.md",
+    "计算机基础/设计模式/动态代理",
+    "计算机基础/计算机网络/TCP三次握手和四次挥手.md",
     "计算机基础/线程池/线程池ThreadPoolExecutor源码刨析.md",
     "计算机基础/线程池/多线程.md",
-    "zzz照片/Pasted image 20230314092543.png",
-    "zzz照片/Pasted image 20230314090221.png",
-    "zzz照片/Pasted image 20230313160301.png",
-    "zzz照片/Pasted image 20230313160257.png",
-    "zzz照片/Pasted image 20230313155553.png",
-    "zzz照片/Pasted image 20230313154013.png",
-    "Mybatis/Mybatis面试题",
+    "计算机基础/注解/Annotation.md",
+    "计算机基础/奇奇怪怪的类/ClassLoader.md",
     "计算机基础/反射/反射.md",
-    "计算机基础/设计模式/动态代理/动态代理.md",
+    "计算机基础/ThreadLocal/TreadLocal及相关.md",
+    "计算机基础/JVM/OOM.md",
+    "计算机基础/ClassLoader/jvm源码层面解析Class.forName和ClassLoader到底有什么区别？.md",
+    "计算机基础/ClassLoader/ClassLoader.md",
+    "计算机基础/java8/Stream.md",
+    "计算机基础/java8/Lambda.md",
+    "计算机基础/锁机制",
+    "计算机基础/设计模式",
+    "计算机基础/计算机网络",
+    "计算机基础/线程池",
+    "计算机基础/注解",
+    "计算机基础/奇奇怪怪的类",
     "计算机基础/反射",
-    "计算机基础/设计模式/动态代理",
-    "Mybatis/Mybatis架构原理和主要组件",
-    "QL/QL.md",
+    "计算机基础/ThreadLocal",
+    "计算机基础/JVM",
+    "数据结构与算法/算法/9.滑动窗口/leetcode 3.md",
+    "数据结构与算法/算法/1.双指针/167. 两数之和 II - 输入有序数组.md",
     "数据结构与算法/数据结构/1.链表/leetcode 链表的题.md",
     "数据结构与算法/数据结构/1.链表/19.删除链表的倒数第N个结点——mid.md",
-    "数据结构与算法/算法/1.双指针/167. 两数之和 II - 输入有序数组.md",
-    "mysql/MySQL库表设计规范.md",
-    "mysql/Mysql优化.md",
-    "Linux/宝塔面板/宝塔安装和开启远程mysql.md",
-    "Git/3.Git常用命令/3.1 Git常用命令.md",
-    "Git/2.Git安装/Git安装.md",
-    "Git/1.Git概述/Git概述.md",
+    "推荐算法/隐语义模型(LFM)和矩阵分解(MF).md",
+    "推荐算法/UserCF和ItemCF.md",
+    "工程技术/阿里研发规范/技术文档规范.md",
+    "工程技术/接口设计指南/接口设计指南.md",
     "zzz照片/未命名.canvas",
-    "Git/3.Git常用命令",
-    "Git/2.Git安装",
-    "Git/1.Git概述",
-    "Git",
-    "Mybatis/Mybatis源码",
-    "Mybatis"
+    "zzz照片/v2-4822fd574471b8588d41162d4270de8b_1440w.webp",
+    "zzz照片/v2-454f6090393976c96d6455972764c402_r.jpg",
+    "zzz照片/u=2456602573,3984517200&fm=253&fmt=auto&app=138&f=PNG.webp",
+    "zzz照片/lQLPJwypSZIlP5jMuc0D5LDbATQdwPBxlwP7StHcgKQA_996_185.png",
+    "zzz照片/java0-1558500658.jpg",
+    "zzz照片/image.png",
+    "zzz照片/f29f77f5497b4d4dbccd67fe5eb388f6.png",
+    "zzz照片/f29f77f5497b4d4dbccd67fe5eb388f6 1.png",
+    "zzz照片/ca332000393242f2baea54517b776d98.png",
+    "zzz照片/c5f7787f00c6424ca201d00076d94c60.png"
   ]
 }
