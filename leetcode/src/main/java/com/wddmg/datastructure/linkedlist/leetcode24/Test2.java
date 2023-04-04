@@ -1,6 +1,6 @@
 package com.wddmg.datastructure.linkedlist.leetcode24;
 
-import com.wddmg.datastructure.ListNode;
+import com.wddmg.datastructure.linkedlist.ListNode;
 
 /**
  * 方法二：递归，

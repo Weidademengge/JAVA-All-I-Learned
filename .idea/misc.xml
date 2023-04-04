@@ -7,6 +7,14 @@
         <option value="$PROJECT_DIR$/leetcode/pom.xml" />
         <option value="$PROJECT_DIR$/concurrent/pom.xml" />
         <option value="$PROJECT_DIR$/write-openResource-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/mybayis-3-open-resource/pom.xml" />
+        <option value="$PROJECT_DIR$/mybayis-3-open-resource/user-test/pom.xml" />
+        <option value="$PROJECT_DIR$/mybayis-3-open-resource/mybatis-3/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-3-open-resource/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-3-open-resource/user-test/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-3-open-resource/mybatis-3/pom.xml" />
+        <option value="$PROJECT_DIR$/my-netty/pom.xml" />
+        <option value="$PROJECT_DIR$/lambda-and-stream/pom.xml" />
       </list>
     </option>
   </component>

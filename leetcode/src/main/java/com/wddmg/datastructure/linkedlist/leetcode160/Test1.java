@@ -1,8 +1,6 @@
 package com.wddmg.datastructure.linkedlist.leetcode160;
 
-import com.wddmg.datastructure.ListNode;
-
-import java.util.List;
+import com.wddmg.datastructure.linkedlist.ListNode;
 
 /**
  * 两个都走一遍，然后再次相等的就是公共的节点，设a是HeadA从头到公共节点的长度，b是公共长度，c是HeadB从头到公共节点的长度，a+b+c = b+c+a

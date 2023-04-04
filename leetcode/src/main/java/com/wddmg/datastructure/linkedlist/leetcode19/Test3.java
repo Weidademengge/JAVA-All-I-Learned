@@ -1,6 +1,6 @@
 package com.wddmg.datastructure.linkedlist.leetcode19;
 
-import com.wddmg.datastructure.ListNode;
+import com.wddmg.datastructure.linkedlist.ListNode;
 
 /**
  * @author duym

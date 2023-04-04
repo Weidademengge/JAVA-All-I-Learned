@@ -1,6 +1,6 @@
 package com.wddmg.datastructure.linkedlist.leetcode148;
 
-import com.wddmg.datastructure.ListNode;
+import com.wddmg.datastructure.linkedlist.ListNode;
 
 /**
  * 方法二：并归排序，这玩意nlogn的就这么几种

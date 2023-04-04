@@ -1,9 +1,6 @@
 package com.wddmg.datastructure.linkedlist.leetcode234;
 
-import com.wddmg.datastructure.ListNode;
-
-import java.awt.*;
-import java.util.Stack;
+import com.wddmg.datastructure.linkedlist.ListNode;
 
 /**
  * 方法三：快慢指针，把后半段反转过来，然后一个一个对比，恶心的是对比之前得把后半段反转过来，然后还要反转回去

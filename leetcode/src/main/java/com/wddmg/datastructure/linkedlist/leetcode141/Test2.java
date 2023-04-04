@@ -1,9 +1,6 @@
 package com.wddmg.datastructure.linkedlist.leetcode141;
 
-import com.wddmg.datastructure.ListNode;
-
-import java.util.HashSet;
-import java.util.Set;
+import com.wddmg.datastructure.linkedlist.ListNode;
 
 /**
  * 方法二：快慢指针，这玩意不会存在在环中快指针跳过慢指针的情况，而且第一圈肯定相遇

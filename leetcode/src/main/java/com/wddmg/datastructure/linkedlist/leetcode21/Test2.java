@@ -1,6 +1,6 @@
 package com.wddmg.datastructure.linkedlist.leetcode21;
 
-import com.wddmg.datastructure.ListNode;
+import com.wddmg.datastructure.linkedlist.ListNode;
 
 /**
  * 方法二：非人类的递归，鲁迅曾经说过，越是想去了解递归，就越不想了解递归

@@ -1,6 +1,6 @@
 package com.wddmg.datastructure.linkedlist.leetcode141;
 
-import com.wddmg.datastructure.ListNode;
+import com.wddmg.datastructure.linkedlist.ListNode;
 
 import java.util.HashSet;
 import java.util.Set;

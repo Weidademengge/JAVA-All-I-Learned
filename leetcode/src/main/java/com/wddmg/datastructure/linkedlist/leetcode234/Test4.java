@@ -1,8 +1,6 @@
 package com.wddmg.datastructure.linkedlist.leetcode234;
 
-import com.wddmg.datastructure.ListNode;
-
-import java.util.Stack;
+import com.wddmg.datastructure.linkedlist.ListNode;
 
 /**
  * 方法四：又是递归，这个不想想了，太累了，脑子全死在理解地柜上了

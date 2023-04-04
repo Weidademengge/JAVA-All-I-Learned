@@ -73,81 +73,10 @@ Git 安装程序里面内置了 10 种编辑器供你挑选，比如 Atom、Note
 
 ![[48c823027a13462ba923725a0a6becd7.png]]
 
--   [务](https://dev-portal.csdn.net/welcome?utm_source=toolbar)
--   [猿如意](https://devbit.csdn.net?source=csdn_toolbar)
-
-[![](https://profile.csdnimg.cn/0/D/B/2_weixin_47934655)](https://blog.csdn.net/weixin_47934655)
-
-[会员中心 ![](https://img-home.csdnimg.cn/images/20210918025138.gif)](https://mall.csdn.net/vip) 
-
-[足迹](https://i.csdn.net/#/user-center/history)
-
-[动态](https://blink.csdn.net)
-
-[消息](https://i.csdn.net/#/msg/index)
-
-[创作中心](https://mp.csdn.net/ "创作中心")
-
-[发布](https://mp.csdn.net/edit)
-
 # Git 详细安装教程（保姆级详细教程）
 
-![](https://csdnimg.cn/release/blogv2/dist/pc/img/original.png)
-
-[Siobhan. 明鑫](https://blog.csdn.net/weixin_46474921 "Siobhan. 明鑫") ![](https://csdnimg.cn/release/blogv2/dist/pc/img/newUpTime2.png) 已于 2022-09-29 17:16:34 修改 ![](https://csdnimg.cn/release/blogv2/dist/pc/img/articleReadEyes2.png) 18525 ![](https://csdnimg.cn/release/blogv2/dist/pc/img/tobarCollect2.png) 收藏 137
-
-分类专栏： [软件、工具安装调试](https://blog.csdn.net/weixin_46474921/category_11406565.html) [Git学习、安装教程](https://blog.csdn.net/weixin_46474921/category_12033567.html) 文章标签： [git](https://so.csdn.net/so/search/s.do?q=git&t=all&o=vip&s=&l=&f=&viparticle=) [github](https://so.csdn.net/so/search/s.do?q=github&t=all&o=vip&s=&l=&f=&viparticle=)
-
-版权
-
- [![](https://img-blog.csdnimg.cn/cf8c071d6a2e487da981ab6a507b77e5.jpg?x-oss-process=image/resize,m_fixed,h_224,w_224) 软件、工具安装调试 同时被 2 个专栏收录![](https://csdnimg.cn/release/blogv2/dist/pc/img/newArrowDown1White.png)](https://blog.csdn.net/weixin_46474921/category_11406565.html "软件、工具安装调试")
-
-8 篇文章 0 订阅
-
-订阅专栏
-
- [![](https://img-blog.csdnimg.cn/20201014180756930.png?x-oss-process=image/resize,m_fixed,h_64,w_64) Git学习、安装教程](https://blog.csdn.net/weixin_46474921/category_12033567.html "Git学习、安装教程")
-
-5 篇文章 1 订阅
-
-订阅专栏
 
 **目录**
-
-[1. 下载git](https://blog.csdn.net/weixin_46474921/article/details/127091723#t0)
-
-[2. Git 的安装](https://blog.csdn.net/weixin_46474921/article/details/127091723#t1)
-
-[2.1 使用许可声明](https://blog.csdn.net/weixin_46474921/article/details/127091723#t2)
-
-[2.2 选择安装目录](https://blog.csdn.net/weixin_46474921/article/details/127091723#t3)
-
- [2.3 选择安装组件](https://blog.csdn.net/weixin_46474921/article/details/127091723#t4)
-
-[2.4 选择开始菜单文件夹](https://blog.csdn.net/weixin_46474921/article/details/127091723#t5)
-
-[2.5 选择 Git 默认编辑器](https://blog.csdn.net/weixin_46474921/article/details/127091723#t6)
-
-[2.6 决定初始化新项目(仓库)的主干名字](https://blog.csdn.net/weixin_46474921/article/details/127091723#t7)
-
-[2.7 调整你的 path 环境变量](https://blog.csdn.net/weixin_46474921/article/details/127091723#t8)
-
-[2.8 选择 SSH 执行文件](https://blog.csdn.net/weixin_46474921/article/details/127091723#t9)
-
-[2.9 选择HTTPS后端传输](https://blog.csdn.net/weixin_46474921/article/details/127091723#t10)
-
-[2.10 配置行尾符号转换](https://blog.csdn.net/weixin_46474921/article/details/127091723#t11) 
-
-[2.11 配置终端模拟器以与 Git Bash 一起使用](https://blog.csdn.net/weixin_46474921/article/details/127091723#t12) 
-
-[2.12 选择默认的 “git pull” 行为](https://blog.csdn.net/weixin_46474921/article/details/127091723#t13)
-
-[2.13 选择一个凭证帮助程序](https://blog.csdn.net/weixin_46474921/article/details/127091723#t14) 
-
-[2.14 配置额外的选项](https://blog.csdn.net/weixin_46474921/article/details/127091723#t15) 
-
-[2.15 配置实验性选项](https://blog.csdn.net/weixin_46474921/article/details/127091723#t16)
-
 ---
 
 # 1. 下载git

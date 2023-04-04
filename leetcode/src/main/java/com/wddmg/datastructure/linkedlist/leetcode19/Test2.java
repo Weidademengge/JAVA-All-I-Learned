@@ -1,6 +1,6 @@
 package com.wddmg.datastructure.linkedlist.leetcode19;
 
-import com.wddmg.datastructure.ListNode;
+import com.wddmg.datastructure.linkedlist.ListNode;
 
 /**
  * 方法二：leetcode官方给出的方法是放到栈中，然后栈弹出就可以了，不用正向数第几个，这里就不展开

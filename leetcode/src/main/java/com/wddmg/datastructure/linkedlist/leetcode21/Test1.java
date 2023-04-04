@@ -1,6 +1,6 @@
 package com.wddmg.datastructure.linkedlist.leetcode21;
 
-import com.wddmg.datastructure.ListNode;
+import com.wddmg.datastructure.linkedlist.ListNode;
 
 /**
  * 方法一：人类的正常写法，哪个小指哪个，由于不知道第一个是哪个，加一个虚拟头结点，一般都设为-1，虚拟头节点的下一个就是答案

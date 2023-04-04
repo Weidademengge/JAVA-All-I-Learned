@@ -1,6 +1,6 @@
 package com.wddmg.datastructure.linkedlist.leetcode24;
 
-import com.wddmg.datastructure.ListNode;
+import com.wddmg.datastructure.linkedlist.ListNode;
 
 /**
  * 方法一：找两个换一下，把cur放到换完的结尾

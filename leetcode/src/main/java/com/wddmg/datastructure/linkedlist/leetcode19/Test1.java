@@ -1,6 +1,6 @@
 package com.wddmg.datastructure.linkedlist.leetcode19;
 
-import com.wddmg.datastructure.ListNode;
+import com.wddmg.datastructure.linkedlist.ListNode;
 
 /**
  * 正常人思想，先得到链表长度，长度-倒数=正数，接下来需要找到删除节点的前一个节点，让它的指针指向它的下下一个，就可以了

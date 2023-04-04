@@ -1,9 +1,8 @@
 package com.wddmg.datastructure.linkedlist.leetcode234;
 
-import com.wddmg.datastructure.ListNode;
+import com.wddmg.datastructure.linkedlist.ListNode;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 /**

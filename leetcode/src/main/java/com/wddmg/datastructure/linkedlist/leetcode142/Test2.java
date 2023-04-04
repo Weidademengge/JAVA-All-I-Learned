@@ -1,9 +1,6 @@
 package com.wddmg.datastructure.linkedlist.leetcode142;
 
-import com.wddmg.datastructure.ListNode;
-
-import java.util.HashSet;
-import java.util.Set;
+import com.wddmg.datastructure.linkedlist.ListNode;
 
 /**
  * 方法二：数学上的玄学问题，有个评论说a+2b+c = 2a+2b,所以a = c，但是没说明n圈的问题

@@ -1,6 +1,6 @@
 package com.wddmg.datastructure.linkedlist.leetcode206;
 
-import com.wddmg.datastructure.ListNode;
+import com.wddmg.datastructure.linkedlist.ListNode;
 
 /**
  * 方法二：神奇递归

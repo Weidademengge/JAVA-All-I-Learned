@@ -1,9 +1,6 @@
 package com.wddmg.datastructure.linkedlist.leetcode148;
 
-import com.wddmg.datastructure.ListNode;
-
-import java.util.Arrays;
-import java.util.List;
+import com.wddmg.datastructure.linkedlist.ListNode;
 
 /**
  * 方法一：冒泡排序，直接超时了,哈哈哈

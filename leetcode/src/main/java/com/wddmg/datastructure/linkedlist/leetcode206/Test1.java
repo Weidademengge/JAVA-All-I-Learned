@@ -1,8 +1,6 @@
 package com.wddmg.datastructure.linkedlist.leetcode206;
 
-import com.wddmg.datastructure.ListNode;
-
-import java.util.List;
+import com.wddmg.datastructure.linkedlist.ListNode;
 
 /**方法一：定义两个节点，pre和cur，然后在循环中定义一个临时节点，temp,让它等cur.next,一会儿指针断了可别跑了个der的，然后就是逆向指就完了
  * 时间：100，空间：16.19

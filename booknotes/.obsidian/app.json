@@ -1,3 +1,5 @@
 {
-  "newFileLocation": "folder"
+  "newFileLocation": "folder",
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "zzz照片"
 }
