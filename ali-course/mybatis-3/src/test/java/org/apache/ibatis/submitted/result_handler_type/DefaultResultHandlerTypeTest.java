@@ -70,7 +70,7 @@ public class DefaultResultHandlerTypeTest {
     try (Reader configReader = Resources.getResourceAsReader(resource)) {
       SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(configReader);
       BaseDataTest.runScript(sqlSessionFactory.getConfiguration().getEnvironment().getDataSource(),
-            "org/apache/ibatis/submitted/result_handler_type/CreateDB.sql");
+              "org/apache/ibatis/submitted/result_handler_type/CreateDB.sql");
 
       return sqlSessionFactory;
     }

@@ -48,13 +48,13 @@ public class OptionalOnMapperMethodTest {
   public static void setUp() throws Exception {
     // create an SqlSessionFactory
     try (Reader reader = Resources.getResourceAsReader(
-        "org/apache/ibatis/submitted/optional_on_mapper_method/mybatis-config.xml")) {
+            "org/apache/ibatis/submitted/optional_on_mapper_method/mybatis-config.xml")) {
       sqlSessionFactory = new SqlSessionFactoryBuilder().build(reader);
     }
 
     // populate in-memory database
     BaseDataTest.runScript(sqlSessionFactory.getConfiguration().getEnvironment().getDataSource(),
-        "org/apache/ibatis/submitted/optional_on_mapper_method/CreateDB.sql");
+            "org/apache/ibatis/submitted/optional_on_mapper_method/CreateDB.sql");
   }
 
   @Test

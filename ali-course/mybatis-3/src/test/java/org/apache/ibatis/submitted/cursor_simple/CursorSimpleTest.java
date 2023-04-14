@@ -46,7 +46,7 @@ public class CursorSimpleTest {
 
     // populate in-memory database
     BaseDataTest.runScript(sqlSessionFactory.getConfiguration().getEnvironment().getDataSource(),
-        "org/apache/ibatis/submitted/cursor_simple/CreateDB.sql");
+            "org/apache/ibatis/submitted/cursor_simple/CreateDB.sql");
   }
 
   @Test

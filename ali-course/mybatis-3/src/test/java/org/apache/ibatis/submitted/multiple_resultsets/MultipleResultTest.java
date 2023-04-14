@@ -63,7 +63,7 @@ public class MultipleResultTest {
     sqlSessionFactory = new SqlSessionFactoryBuilder().build(configuration);
 
     BaseDataTest.runScript(sqlSessionFactory.getConfiguration().getEnvironment().getDataSource(),
-        "org/apache/ibatis/submitted/multiple_resultsets/CreateDB.sql");
+            "org/apache/ibatis/submitted/multiple_resultsets/CreateDB.sql");
   }
 
   @AfterClass

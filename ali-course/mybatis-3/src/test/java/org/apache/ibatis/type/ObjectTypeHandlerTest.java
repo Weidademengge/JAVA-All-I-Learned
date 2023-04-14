@@ -23,8 +23,6 @@ import static org.mockito.Mockito.when;
 
 import org.junit.Test;
 
-import java.sql.Clob;
-
 public class ObjectTypeHandlerTest extends BaseTypeHandlerTest {
 
   private static final TypeHandler<Object> TYPE_HANDLER = new ObjectTypeHandler();

@@ -1,0 +1,12 @@
+<mapper namespace="user">
+
+    <select id="selectList" resultType="com.ebanma.cloud.domain.entity.UserDO">
+        select * from tb_user
+    </select>
+
+    <select id="selectOne" resultType="com.ebanma.cloud.domain.entity.UserDO"
+            paramterType="com.ebanma.cloud.domain.entity.UserDO">
+        select * from tb_user where id = #{id} and username = #{username}
+    </select>
+
+</mapper>

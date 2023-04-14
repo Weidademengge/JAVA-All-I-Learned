@@ -64,7 +64,7 @@ public class InsertTest {
     sqlSessionFactory = new SqlSessionFactoryBuilder().build(configuration);
 
     BaseDataTest.runScript(sqlSessionFactory.getConfiguration().getEnvironment().getDataSource(),
-        "org/apache/ibatis/submitted/keycolumn/CreateDB.sql");
+            "org/apache/ibatis/submitted/keycolumn/CreateDB.sql");
   }
 
   @AfterClass

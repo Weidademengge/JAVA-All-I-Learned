@@ -24,7 +24,6 @@ import java.sql.SQLException;
 import java.sql.Types;
 
 import org.apache.ibatis.logging.Log;
-import org.apache.ibatis.logging.jdbc.ResultSetLogger;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;

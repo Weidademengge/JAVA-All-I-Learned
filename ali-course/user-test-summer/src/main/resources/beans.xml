@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--跟标签beans，里面配置一个又一个的bean子标签，每一个bean子标签都代表一个类的配置-->
+<beans>
+    <bean id="accountDao" class="com.duym.summer.dao.JdbcAccountDaoImpl">
+        <property name="ConnectionUtils" ref="connectionUtils"/>
+    </bean>
+
+    <bean id="transferService" class="com.duym.summer.service.HeartbeatServiceImpl">
+        <property name="AccountDao" ref="accountDao"/>
+    </bean>
+
+    <!--数据库连接工具-->
+    <bean id="connectionUtils" class="com.duym.summer.util.ConnectionUtils"/>
+
+    <!--事务管理器-->
+    <bean id="transactionManager" class="com.duym.javasummer.util.TransactionManager">
+        <property name="ConnectionUtils" ref="connectionUtils"/>
+    </bean>
+
+    <!--代理对象工厂-->
+    <bean id="proxyFactory" class="com.duym.javasummer.aop.ProxyFactory">
+        <property name="TransactionManager" ref="transactionManager"/>
+    </bean>
+</beans>

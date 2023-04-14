@@ -71,7 +71,7 @@ public class SerializeCircularTest {
 
   private SqlSession createSession(boolean anAggressiveLazyLoading) throws Exception {
     String xmlConfig = anAggressiveLazyLoading ?
-        "org/apache/ibatis/submitted/serializecircular/MapperConfigWithAggressiveLazyLoading.xml":
+            "org/apache/ibatis/submitted/serializecircular/MapperConfigWithAggressiveLazyLoading.xml" :
         "org/apache/ibatis/submitted/serializecircular/MapperConfigWithoutAggressiveLazyLoading.xml";
       SqlSessionFactory sqlSessionFactory = getSqlSessionFactoryXmlConfig(xmlConfig);
       SqlSession sqlSession = sqlSessionFactory.openSession();

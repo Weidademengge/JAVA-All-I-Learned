@@ -35,7 +35,7 @@ public class EnumInterfaceTypeHandlerTest {
   public static void setUp() throws Exception {
     // create an SqlSessionFactory
     try (Reader reader = Resources.getResourceAsReader(
-        "org/apache/ibatis/submitted/enum_interface_type_handler/mybatis-config.xml")) {
+            "org/apache/ibatis/submitted/enum_interface_type_handler/mybatis-config.xml")) {
       sqlSessionFactory = new SqlSessionFactoryBuilder().build(reader);
     }
 

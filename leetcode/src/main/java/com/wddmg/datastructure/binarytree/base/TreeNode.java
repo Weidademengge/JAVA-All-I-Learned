@@ -1,5 +1,8 @@
 package com.wddmg.datastructure.binarytree.base;
 
+import javax.xml.transform.Templates;
+import java.util.*;
+
 /**
  * @author duym
  * @version $ Id: BinaryTreeNode, v 0.1 2023/03/27 21:34 duym Exp $
@@ -20,7 +23,4 @@ public class TreeNode {
         this.val = val;
     }
 
-//    public void print(TreeNode root){
-//
-//    }
 }

@@ -42,7 +42,7 @@ public class CursorNestedTest {
 
     // populate in-memory database
     BaseDataTest.runScript(sqlSessionFactory.getConfiguration().getEnvironment().getDataSource(),
-        "org/apache/ibatis/submitted/cursor_nested/CreateDB.sql");
+            "org/apache/ibatis/submitted/cursor_nested/CreateDB.sql");
   }
 
   @Test

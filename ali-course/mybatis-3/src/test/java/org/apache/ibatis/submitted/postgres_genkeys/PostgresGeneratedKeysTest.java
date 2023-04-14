@@ -55,7 +55,7 @@ public class PostgresGeneratedKeysTest {
     sqlSessionFactory = new SqlSessionFactoryBuilder().build(configuration);
 
     BaseDataTest.runScript(sqlSessionFactory.getConfiguration().getEnvironment().getDataSource(),
-        "org/apache/ibatis/submitted/postgres_genkeys/CreateDB.sql");
+            "org/apache/ibatis/submitted/postgres_genkeys/CreateDB.sql");
   }
 
   @AfterClass

@@ -7,24 +7,185 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="yourbatis" />
+        <module name="java-summer" />
+        <module name="spring-boot-starter-jooq" />
+        <module name="spring-boot-starter-json" />
+        <module name="spring-boot-starter-undertow" />
+        <module name="lambda-and-stream" />
+        <module name="spring-boot-starter-data-neo4j" />
+        <module name="spring-boot-server-tests" />
+        <module name="user-test-all" />
+        <module name="spring-boot-starter-integration" />
+        <module name="spring-boot-starter" />
+        <module name="spring-boot-starter-batch" />
+        <module name="spring-boot-starter-validation" />
+        <module name="spring-boot-cli" />
+        <module name="spring-boot-devtools" />
+        <module name="spring-boot-configuration-processor-tests" />
+        <module name="spring-boot-starter-web-services" />
+        <module name="yourbatis_test" />
+        <module name="spring-boot-loader-tools" />
+        <module name="spring-boot-starter-data-couchbase" />
+        <module name="spring-boot-starter-jta-bitronix" />
+        <module name="spring-boot-starter-data-ldap" />
+        <module name="spring-boot-starter-jdbc" />
+        <module name="spring-boot-starter-aop" />
+        <module name="spring-boot-starter-webflux" />
+        <module name="spring-boot-autoconfigure" />
+        <module name="spring-boot-starter-amqp" />
+        <module name="spring-boot-starter-data-redis-reactive" />
+        <module name="spring-boot-starter-websocket" />
+        <module name="spring-boot-configuration-metadata" />
+        <module name="spring-boot-starter-cache" />
+        <module name="spring-boot-starter-reactor-netty" />
+        <module name="spring-boot-starter-data-elasticsearch" />
+        <module name="spring-boot-starter-cloud-connectors" />
+        <module name="spring-boot-starter-data-rest" />
+        <module name="spring-boot-starter-data-redis" />
+        <module name="spring-boot-starter-jersey" />
+        <module name="spring-boot-starter-mustache" />
+        <module name="spring-boot" />
+        <module name="spring-boot-starter-data-cassandra" />
+        <module name="spring-boot-starter-logging" />
+        <module name="spring-boot-starter-quartz" />
+        <module name="spring-boot-starter-log4j2" />
+        <module name="java-native" />
+        <module name="spring-boot-starter-data-mongodb-reactive" />
+        <module name="spring-boot-loader" />
+        <module name="spring-boot-starter-oauth2-resource-server" />
+        <module name="user-test-summer" />
+        <module name="demo-spring-boot-starter" />
+        <module name="spring-boot-starter-tomcat" />
+        <module name="spring-boot-starter-oauth2-client" />
         <module name="mybatis" />
         <module name="concurrent" />
-        <module name="user-test" />
-        <module name="yourbatis_test" />
-        <module name="mybayis-3-open-resource" />
-        <module name="leetcode" />
+        <module name="user-test-orm" />
+        <module name="spring-boot-starter-data-cassandra-reactive" />
+        <module name="spring-boot-properties-migrator" />
         <module name="my-nio" />
-        <module name="lambda-and-stream" />
+        <module name="spring-boot-starter-jta-atomikos" />
+        <module name="spring-boot-starter-data-mongodb" />
+        <module name="spring-boot-actuator" />
+        <module name="spring-boot-test-support" />
+        <module name="spring-boot-starter-groovy-templates" />
+        <module name="spring-boot-actuator-autoconfigure" />
+        <module name="spring-boot-devtools-tests" />
+        <module name="spring-boot-starter-mail" />
+        <module name="spring-boot-starter-data-solr" />
+        <module name="spring-boot-starter-activemq" />
+        <module name="spring-boot-test" />
+        <module name="spring-boot-antlib" />
+        <module name="yourbatis" />
+        <module name="spring-boot-starter-test" />
+        <module name="spring-boot-configuration-docs" />
+        <module name="spring-boot-starter-thymeleaf" />
+        <module name="leetcode" />
+        <module name="spring-boot-starter-freemarker" />
+        <module name="spring-boot-starter-hateoas" />
+        <module name="spring-boot-starter-rsocket" />
+        <module name="spring-boot-starter-data-couchbase-reactive" />
+        <module name="spring-boot-launch-script-tests" />
+        <module name="spring-boot-starter-jetty" />
+        <module name="spring-boot-starter-data-jdbc" />
+        <module name="spring-boot-starter-actuator" />
+        <module name="spring-boot-starter-web" />
+        <module name="spring-boot-starter-data-jpa" />
+        <module name="spring-boot-maven-plugin" />
+        <module name="spring-boot-starter-artemis" />
+        <module name="spring-boot-test-autoconfigure" />
+        <module name="spring-boot-starter-security" />
+        <module name="spring-boot-docs" />
+        <module name="java-orm" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="mybatis-3-open-resource" target="1.8" />
+    <bytecodeTargetLevel target="8">
+      <module name="mybayis-3-open-resource" target="1.8" />
+      <module name="user-test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="java-summer" options="-parameters" />
+      <module name="spring-boot" options="-parameters" />
+      <module name="spring-boot-actuator" options="-parameters" />
+      <module name="spring-boot-actuator-autoconfigure" options="-parameters" />
+      <module name="spring-boot-antlib" options="-parameters" />
+      <module name="spring-boot-autoconfigure" options="-parameters" />
+      <module name="spring-boot-autoconfigure-processor" options="-parameters" />
+      <module name="spring-boot-cli" options="-parameters" />
+      <module name="spring-boot-configuration-docs" options="-parameters" />
+      <module name="spring-boot-configuration-metadata" options="-parameters" />
+      <module name="spring-boot-configuration-processor" options="-parameters" />
+      <module name="spring-boot-configuration-processor-tests" options="-parameters" />
+      <module name="spring-boot-devtools" options="-parameters" />
+      <module name="spring-boot-devtools-tests" options="-parameters" />
+      <module name="spring-boot-docs" options="-parameters" />
+      <module name="spring-boot-launch-script-tests" options="-parameters" />
+      <module name="spring-boot-loader" options="-parameters" />
+      <module name="spring-boot-loader-tools" options="-parameters" />
+      <module name="spring-boot-maven-plugin" options="-parameters" />
+      <module name="spring-boot-parent" options="" />
+      <module name="spring-boot-properties-migrator" options="-parameters" />
+      <module name="spring-boot-server-tests" options="-parameters" />
+      <module name="spring-boot-starter" options="-parameters" />
+      <module name="spring-boot-starter-activemq" options="-parameters" />
+      <module name="spring-boot-starter-actuator" options="-parameters" />
+      <module name="spring-boot-starter-amqp" options="-parameters" />
+      <module name="spring-boot-starter-aop" options="-parameters" />
+      <module name="spring-boot-starter-artemis" options="-parameters" />
+      <module name="spring-boot-starter-batch" options="-parameters" />
+      <module name="spring-boot-starter-cache" options="-parameters" />
+      <module name="spring-boot-starter-cloud-connectors" options="-parameters" />
+      <module name="spring-boot-starter-data-cassandra" options="-parameters" />
+      <module name="spring-boot-starter-data-cassandra-reactive" options="-parameters" />
+      <module name="spring-boot-starter-data-couchbase" options="-parameters" />
+      <module name="spring-boot-starter-data-couchbase-reactive" options="-parameters" />
+      <module name="spring-boot-starter-data-elasticsearch" options="-parameters" />
+      <module name="spring-boot-starter-data-jdbc" options="-parameters" />
+      <module name="spring-boot-starter-data-jpa" options="-parameters" />
+      <module name="spring-boot-starter-data-ldap" options="-parameters" />
+      <module name="spring-boot-starter-data-mongodb" options="-parameters" />
+      <module name="spring-boot-starter-data-mongodb-reactive" options="-parameters" />
+      <module name="spring-boot-starter-data-neo4j" options="-parameters" />
+      <module name="spring-boot-starter-data-redis" options="-parameters" />
+      <module name="spring-boot-starter-data-redis-reactive" options="-parameters" />
+      <module name="spring-boot-starter-data-rest" options="-parameters" />
+      <module name="spring-boot-starter-data-solr" options="-parameters" />
+      <module name="spring-boot-starter-freemarker" options="-parameters" />
+      <module name="spring-boot-starter-groovy-templates" options="-parameters" />
+      <module name="spring-boot-starter-hateoas" options="-parameters" />
+      <module name="spring-boot-starter-integration" options="-parameters" />
+      <module name="spring-boot-starter-jdbc" options="-parameters" />
+      <module name="spring-boot-starter-jersey" options="-parameters" />
+      <module name="spring-boot-starter-jetty" options="-parameters" />
+      <module name="spring-boot-starter-jooq" options="-parameters" />
+      <module name="spring-boot-starter-json" options="-parameters" />
+      <module name="spring-boot-starter-jta-atomikos" options="-parameters" />
+      <module name="spring-boot-starter-jta-bitronix" options="-parameters" />
+      <module name="spring-boot-starter-log4j2" options="-parameters" />
+      <module name="spring-boot-starter-logging" options="-parameters" />
+      <module name="spring-boot-starter-mail" options="-parameters" />
+      <module name="spring-boot-starter-mustache" options="-parameters" />
+      <module name="spring-boot-starter-oauth2-client" options="-parameters" />
+      <module name="spring-boot-starter-oauth2-resource-server" options="-parameters" />
+      <module name="spring-boot-starter-quartz" options="-parameters" />
+      <module name="spring-boot-starter-reactor-netty" options="-parameters" />
+      <module name="spring-boot-starter-rsocket" options="-parameters" />
+      <module name="spring-boot-starter-security" options="-parameters" />
+      <module name="spring-boot-starter-test" options="-parameters" />
+      <module name="spring-boot-starter-thymeleaf" options="-parameters" />
+      <module name="spring-boot-starter-tomcat" options="-parameters" />
+      <module name="spring-boot-starter-undertow" options="-parameters" />
+      <module name="spring-boot-starter-validation" options="-parameters" />
+      <module name="spring-boot-starter-web" options="-parameters" />
+      <module name="spring-boot-starter-web-services" options="-parameters" />
+      <module name="spring-boot-starter-webflux" options="-parameters" />
+      <module name="spring-boot-starter-websocket" options="-parameters" />
+      <module name="spring-boot-test" options="-parameters" />
+      <module name="spring-boot-test-autoconfigure" options="-parameters" />
+      <module name="spring-boot-test-support" options="-parameters" />
       <module name="user-test" options="-parameters" />
+      <module name="user-test-all" options="-parameters" />
     </option>
   </component>
 </project>

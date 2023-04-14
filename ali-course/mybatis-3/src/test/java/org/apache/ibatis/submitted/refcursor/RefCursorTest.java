@@ -67,7 +67,7 @@ public class RefCursorTest {
     sqlSessionFactory = new SqlSessionFactoryBuilder().build(configuration);
 
     BaseDataTest.runScript(sqlSessionFactory.getConfiguration().getEnvironment().getDataSource(),
-        "org/apache/ibatis/submitted/refcursor/CreateDB.sql");
+            "org/apache/ibatis/submitted/refcursor/CreateDB.sql");
   }
 
   @AfterClass

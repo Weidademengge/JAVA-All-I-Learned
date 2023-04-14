@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/ali-course/user-test-summer" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -10,15 +13,26 @@
         <option value="$PROJECT_DIR$/mybayis-3-open-resource/pom.xml" />
         <option value="$PROJECT_DIR$/mybayis-3-open-resource/user-test/pom.xml" />
         <option value="$PROJECT_DIR$/mybayis-3-open-resource/mybatis-3/pom.xml" />
-        <option value="$PROJECT_DIR$/mybatis-3-open-resource/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-3-open-resource/user-test/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-3-open-resource/mybatis-3/pom.xml" />
         <option value="$PROJECT_DIR$/my-netty/pom.xml" />
         <option value="$PROJECT_DIR$/lambda-and-stream/pom.xml" />
+        <option value="$PROJECT_DIR$/ali-course/pom.xml" />
+        <option value="$PROJECT_DIR$/ali-course/java-orm/pom.xml" />
+        <option value="$PROJECT_DIR$/ali-course/user-test-orm/pom.xml" />
+        <option value="$PROJECT_DIR$/ali-course/user-test-all/pom.xml" />
+        <option value="$PROJECT_DIR$/ali-course/spring-boot-2.2.9.RELEASE/pom.xml" />
+        <option value="$PROJECT_DIR$/ali-course/mybatis-3/pom.xml" />
+        <option value="$PROJECT_DIR$/ali-course/demo-spring-boot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/ali-course/user-test-summer/pom.xml" />
+        <option value="$PROJECT_DIR$/ali-course/java-summer/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_18" project-jdk-name="8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SuppressKotlinCodeStyleNotification">
+    <option name="disableForAll" value="true" />
   </component>
 </project>
