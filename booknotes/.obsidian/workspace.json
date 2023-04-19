@@ -61,14 +61,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-阿里课程/3-应用框架/1-Spring家族技术生态/4-Spring Boot 源码剖析/4-Spring Boot Run 方法.md",
+                "file": "1-Java基础/设计模式/单例模式.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5bd2ba15b5b796fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0-阿里课程/3-应用框架/6-Netty 基础知识/1. Socket编程.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f09882b381b1259b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0-阿里课程/3-应用框架/6-Netty 基础知识/2. NIO编程.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "49d588a36bd12893",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0-阿里课程/3-应用框架/6-Netty 基础知识/3.  Netty核心原理.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d07089f209a00b3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0-阿里课程/3-应用框架/6-Netty 基础知识/4. Netty高级应用.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -134,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-阿里课程/3-应用框架/1-Spring家族技术生态/4-Spring Boot 源码剖析/4-Spring Boot Run 方法.md",
+                "file": "0-阿里课程/3-应用框架/6-Netty 基础知识/4. Netty高级应用.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -151,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-阿里课程/3-应用框架/1-Spring家族技术生态/4-Spring Boot 源码剖析/4-Spring Boot Run 方法.md",
+                "file": "0-阿里课程/3-应用框架/6-Netty 基础知识/4. Netty高级应用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -174,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-阿里课程/3-应用框架/1-Spring家族技术生态/4-Spring Boot 源码剖析/4-Spring Boot Run 方法.md"
+                "file": "0-阿里课程/3-应用框架/6-Netty 基础知识/4. Netty高级应用.md"
               }
             }
           },
@@ -205,10 +253,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "19fdc1b62a59b7b9",
+  "active": "d07089f209a00b3d",
   "lastOpenFiles": [
-    "0-阿里课程/3-应用框架/1-Spring家族技术生态/4-Spring Boot 源码剖析/3-Spring Boot 自动配置.md",
+    "0-阿里课程/3-应用框架/6-Netty 基础知识/3.  Netty核心原理.md",
+    "0-阿里课程/3-应用框架/6-Netty 基础知识/4. Netty高级应用.md",
+    "0-阿里课程/3-应用框架/6-Netty 基础知识/2. NIO编程.md",
+    "zzz照片/Pasted image 20230419220121.png",
+    "zzz照片/Pasted image 20230419220042.png",
+    "0-阿里课程/3-应用框架/6-Netty 基础知识/1. Socket编程.md",
+    "1-Java基础/设计模式/单例模式.md",
+    "1-Java基础/设计模式/动态代理/动态代理.md",
     "0-阿里课程/3-应用框架/1-Spring家族技术生态/4-Spring Boot 源码剖析/4-Spring Boot Run 方法.md",
+    "0-阿里课程/3-应用框架/1-Spring家族技术生态/4-Spring Boot 源码剖析/3-Spring Boot 自动配置.md",
     "0-阿里课程/3-应用框架/1-Spring家族技术生态/4-Spring Boot 源码剖析/0-源码剖析.md",
     "0-阿里课程/3-应用框架/1-Spring家族技术生态/4-Spring Boot 源码剖析/2-Spring Boot 依赖管理.md",
     "0-阿里课程/3-应用框架/1-Spring家族技术生态/4-Spring Boot 源码剖析/1-Spring Boot 源码环境搭建.md",
@@ -221,8 +277,8 @@
     "0-阿里课程/3-应用框架/6-Netty 基础知识",
     "0-阿里课程/3-应用框架/5-Mybatis",
     "0-阿里课程/3-应用框架/4-Google Guava",
-    "0-阿里课程/3-应用框架/3-Google Guava",
-    "0-阿里课程/3-应用框架/2-Apache Commons Lang",
+    "0-阿里课程/3-应用框架/3-Apache Commons Lang",
+    "0-阿里课程/3-应用框架/2-Spring Boot 源码剖析",
     "0-阿里课程/2-Java编程进阶/3-Java基础知识/10-线程局部变量（ThreadLocal）.md",
     "0-阿里课程/2-Java编程进阶/3-Java基础知识/9-内省.md",
     "0-阿里课程/2-Java编程进阶/3-Java基础知识/8-反射.md",
@@ -237,12 +293,6 @@
     "0-阿里课程/2-Java编程进阶/2-Java并发编程/java.util.concurrent/10-1 Lock.md",
     "0-阿里课程/2-Java编程进阶/2-Java并发编程/java.util.concurrent/9-CopyOnWriteArrayList.md",
     "0-阿里课程/2-Java编程进阶/2-Java并发编程/java.util.concurrent/8-ConcurrentHashMap.md",
-    "0-阿里课程/2-Java编程进阶/2-Java并发编程/java.util.concurrent/6-ArrayBlockingQueue.md",
-    "0-阿里课程/2-Java编程进阶/2-Java并发编程/java.util.concurrent/5-ConcurrentLinkedQueue.md",
-    "0-阿里课程/2-Java编程进阶/2-Java并发编程/java.util.concurrent/4-Semaphore.md",
-    "0-阿里课程/2-Java编程进阶/2-Java并发编程/java.util.concurrent/3-Future.md",
-    "0-阿里课程/2-Java编程进阶/2-Java并发编程/java.util.concurrent/7-BlockingQueue.md",
-    "并发/3-Java线程/Java线程.md",
     "zzz照片/Pasted image 20230209151211.png",
     "zzz照片/Pasted image 20230407220522.png",
     "zzz照片/Pasted image 20230407173142.png",
@@ -251,8 +301,6 @@
     "zzz照片/images 2.png",
     "zzz照片/Pasted image 20230406170657.png",
     "zzz照片/Pasted image 20230406170559.png",
-    "zzz照片/1676956603971-49f97197-9ad7-4069-9457-c5ed3e20c2a0.png",
-    "zzz照片/1676956612531-b4696103-04b3-4569-8514-1943c0f9efff 1.png",
     "zzz照片/未命名.canvas"
   ]
 }

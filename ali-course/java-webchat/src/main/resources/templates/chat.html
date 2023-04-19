@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聊天室</title>
+    <link rel="stylesheet" href="../static/css/chat.css">
+    <script src="../static/js/jquery.1.7.2.min.js"></script>
+    <script src="../static/js/chat.js"></script>
+</head>
+
+<body>
+    <div id="chat">
+        <div class="sidebar">
+            <div class="m-card">
+                <header>
+                    <p class="name" >姓名:</p>
+                    <p class="name" id="username"></p>
+                </header>
+            </div>
+            <div class="m-list">
+                <ul id="user_list">
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <div class="m-message">
+                <ul id="msg_list">
+                </ul>
+            </div>
+            <div class="m-text">
+                <textarea placeholder="按 Enter 发送" id="my_test"></textarea>
+                <div class="pager_btn">
+                    <button id="send">发送</button>
+                </div>
+                <div class="arrow_box">
+                    发送内容不能为空
+                    <div class="arrow"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

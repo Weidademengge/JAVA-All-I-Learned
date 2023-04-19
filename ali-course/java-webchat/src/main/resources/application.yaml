@@ -1,0 +1,17 @@
+server:
+  port: 8080
+resources:
+  static-locations:
+    - classpath:/static/
+spring:
+  thymeleaf:
+    cache: false
+    check-template: true
+    enabled: true
+    encoding: UTF-8
+    mode: HTML5
+    prefix: classpath:/templates/
+    suffix: .html
+netty:
+  port: 8081
+  path: /chat

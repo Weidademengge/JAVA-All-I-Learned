@@ -26,7 +26,16 @@
         <option value="$PROJECT_DIR$/ali-course/demo-spring-boot-starter/pom.xml" />
         <option value="$PROJECT_DIR$/ali-course/user-test-summer/pom.xml" />
         <option value="$PROJECT_DIR$/ali-course/java-summer/pom.xml" />
+        <option value="$PROJECT_DIR$/write-openResource-spring/pom.xml" />
+        <option value="$PROJECT_DIR$/design-patterns/pom.xml" />
+        <option value="$PROJECT_DIR$/ali-course/java-webchat/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/design-patterns/observer/pom.xml" />
+        <option value="$PROJECT_DIR$/design-patterns/proxy/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="8" project-jdk-type="JavaSDK">

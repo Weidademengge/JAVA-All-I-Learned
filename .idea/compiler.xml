@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="java-webchat" />
         <module name="java-summer" />
         <module name="spring-boot-starter-jooq" />
         <module name="spring-boot-starter-json" />
@@ -52,8 +53,8 @@
         <module name="java-native" />
         <module name="spring-boot-starter-data-mongodb-reactive" />
         <module name="spring-boot-loader" />
-        <module name="spring-boot-starter-oauth2-resource-server" />
         <module name="user-test-summer" />
+        <module name="spring-boot-starter-oauth2-resource-server" />
         <module name="demo-spring-boot-starter" />
         <module name="spring-boot-starter-tomcat" />
         <module name="spring-boot-starter-oauth2-client" />
@@ -92,6 +93,7 @@
         <module name="spring-boot-starter-data-jpa" />
         <module name="spring-boot-maven-plugin" />
         <module name="spring-boot-starter-artemis" />
+        <module name="myspring" />
         <module name="spring-boot-test-autoconfigure" />
         <module name="spring-boot-starter-security" />
         <module name="spring-boot-docs" />
@@ -99,13 +101,17 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="dynamic-proxy" target="1.8" />
       <module name="mybayis-3-open-resource" target="1.8" />
+      <module name="observer" target="1.7" />
+      <module name="proxy" target="1.8" />
       <module name="user-test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="java-summer" options="-parameters" />
+      <module name="java-webchat" options="-parameters" />
       <module name="spring-boot" options="-parameters" />
       <module name="spring-boot-actuator" options="-parameters" />
       <module name="spring-boot-actuator-autoconfigure" options="-parameters" />
@@ -120,6 +126,7 @@
       <module name="spring-boot-devtools" options="-parameters" />
       <module name="spring-boot-devtools-tests" options="-parameters" />
       <module name="spring-boot-docs" options="-parameters" />
+      <module name="spring-boot-integration-tests" options="" />
       <module name="spring-boot-launch-script-tests" options="-parameters" />
       <module name="spring-boot-loader" options="-parameters" />
       <module name="spring-boot-loader-tools" options="-parameters" />
