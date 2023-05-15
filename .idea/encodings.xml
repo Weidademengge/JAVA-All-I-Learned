@@ -3,10 +3,25 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/ali-course/demo-spring-boot-starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ali-course/demo-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ali-course/dubbo-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ali-course/dubbo-test/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ali-course/java-native/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ali-course/java-native/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ali-course/java-orm/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ali-course/java-orm/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ali-course/java-rpc-v1/rpc-v1-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ali-course/java-rpc-v1/rpc-v1-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ali-course/java-rpc-v1/rpc-v1-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ali-course/java-rpc-v1/rpc-v1-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ali-course/java-rpc-v1/rpc-v1-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ali-course/java-rpc-v1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ali-course/java-rpc-v1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ali-course/java-rpc-v2/rpc-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ali-course/java-rpc-v2/rpc-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ali-course/java-rpc-v2/rpc-v2-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ali-course/java-rpc-v2/rpc-v2-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ali-course/java-rpc-v2/rpc-v2-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ali-course/java-rpc-v2/rpc-v2-provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ali-course/java-summer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ali-course/java-summer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ali-course/java-webchat/src/main/java" charset="UTF-8" />
@@ -207,6 +222,8 @@
     <file url="file://$PROJECT_DIR$/my-netty/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-3-open-resource/user-test/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-3-open-resource/user-test/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mycache/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mycache/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/write-openResource-spring/myspring/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/write-openResource-spring/myspring/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/write-openResource-spring/src/main/java" charset="UTF-8" />

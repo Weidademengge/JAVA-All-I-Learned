@@ -29,6 +29,11 @@
         <option value="$PROJECT_DIR$/write-openResource-spring/pom.xml" />
         <option value="$PROJECT_DIR$/design-patterns/pom.xml" />
         <option value="$PROJECT_DIR$/ali-course/java-webchat/pom.xml" />
+        <option value="$PROJECT_DIR$/mycache/pom.xml" />
+        <option value="$PROJECT_DIR$/ali-course/java-rpc-v1/pom.xml" />
+        <option value="$PROJECT_DIR$/ali-course/java-rpc-v1/rpc-v1-api/pom.xml" />
+        <option value="$PROJECT_DIR$/ali-course/java-rpc-v2/pom.xml" />
+        <option value="$PROJECT_DIR$/ali-course/java-rpc-v2/rpc-v2-provider/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -38,7 +43,7 @@
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="SuppressKotlinCodeStyleNotification">

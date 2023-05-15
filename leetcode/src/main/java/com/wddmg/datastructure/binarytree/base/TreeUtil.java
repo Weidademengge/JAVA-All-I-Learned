@@ -15,91 +15,62 @@ public class TreeUtil {
         }
 
         int height = maxDepth(root);
-        // 计算深度为depth的满二叉树需要的打印区域:叶子节点需要的打印区域，恰好为奇数
-        // 同一个节点左右孩子间隔3个空格
-        // 相邻节点至少间隔一个空格
-        int printArea = (int) (3 * (Math.pow(2, (height - 1))) - 1);
-        // 每一个节点前面的空格树
-        int nodeSpace = (printArea / 2) + 2;
+        // 最后一行的宽度为2的（n - 1）次方乘3，再加1
+        // 作为整个二维数组的宽度
+        int arrayHeight = height * 2 - 1;
+        int arrayWidth = (2 << (height - 2)) * 3 + 1;
 
-        LinkedList<TreeNode> queue = new LinkedList<>();
-        List<String> level = new ArrayList<>();
-        StringBuffer sb = printSpace(nodeSpace);
-        Map<TreeNode, Integer> map = new HashMap<>();
-        sb.append(root.val);
-
-        int leftSpace = nodeSpace;
-        int rightSpace = nodeSpace;
-        map.put(root, nodeSpace);
-        level.add(sb.toString());
-        queue.add(root);
-        while (!queue.isEmpty()) {
-            StringBuffer ganggang = new StringBuffer();
-            StringBuffer nextNode = new StringBuffer();
-            int size = queue.size();
-            for (int i = 0; i < size; i++) {
-                TreeNode cur = queue.pop();
-                int curNodeSpace = map.get(cur);
-                if (cur.left != null) {
-                    leftSpace = curNodeSpace - 1;
-                    if (ganggang.length() != 0) {
-                        ganggang.append(printSpace(2));
-                    } else {
-                        ganggang.append(printSpace(leftSpace));
-                    }
-                    ganggang.append("/");
-
-                }
-                if (cur.right != null) {
-                    rightSpace = curNodeSpace + 1;
-                    if (ganggang.length() != 0) {
-                        ganggang.append(printSpace(2));
-                    } else {
-                        ganggang.append(printSpace(rightSpace));
-                    }
-                    ganggang.append("\\");
-                }
-                level.add(ganggang.toString());
-
-                if (cur.left != null) {
-                    queue.add(cur.left);
-                    leftSpace--;
-                    map.put(cur.left, leftSpace);
-                    if (nextNode.length() != 0) {
-                        nextNode.append(printSpace(2));
-                    } else {
-                        nextNode.append(printSpace(leftSpace));
-                    }
-                    nextNode.append(cur.left.val);
-                }
-                if (cur.right != null) {
-                    queue.add(cur.right);
-                    rightSpace++;
-                    map.put(cur.right, rightSpace);
-                    if (nextNode.length() != 0) {
-                        nextNode.append(printSpace(2));
-                    } else {
-                        nextNode.append(printSpace(rightSpace));
-                    }
-                    nextNode.append(cur.right.val);
-                }
-                level.add(nextNode.toString());
+        // 用一个字符串数组来存储每个位置应显示的元素
+        String[][] res = new String[arrayHeight][arrayWidth];
+        // 对数组进行初始化，默认为一个空格
+        for (int i = 0; i < arrayHeight; i ++) {
+            for (int j = 0; j < arrayWidth; j ++) {
+                res[i][j] = " ";
             }
         }
-        for (String s : level) {
-            if (s.length() != 0) {
-                System.out.println(s);
+
+        // 从根节点开始，递归处理整个树
+        writeArray(root, 0, arrayWidth/2, res, height);
+
+        // 此时，已经将所有需要显示的元素储存到了二维数组中，将其拼接并打印即可
+        for (String[] line: res) {
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < line.length; i ++) {
+                sb.append(line[i]);
+                if (line[i].length() > 1 && i <= line.length - 1) {
+                    i += line[i].length() > 4 ? 2: line[i].length() - 1;
+                }
             }
+            System.out.println(sb.toString());
         }
     }
 
-
-    private static StringBuffer printSpace(int count) {
-        StringBuffer sb = new StringBuffer();
-        for (int i = 0; i < count; i++) {
-            sb.append(" ");
+    private static void writeArray(TreeNode currNode, int rowIndex, int columnIndex, String[][] res, int height) {
+        // 保证输入的树不为空
+        if (currNode == null) {
+            return;
         }
-        return sb;
+        res[rowIndex][columnIndex] = String.valueOf((currNode.val));
+        // 计算当前位于树的第几层
+        int currLevel = ((rowIndex + 1) / 2);
+        // 若到了最后一层，则返回
+        if (currLevel == height) {
+            return;
+        }
+        // 计算当前行到下一行，每个元素之间的间隔（下一行的列索引与当前元素的列索引之间的间隔）
+        int gap = height - currLevel - 1;
+        // 对左儿子进行判断，若有左儿子，则记录相应的"/"与左儿子的值
+        if (currNode.left != null) {
+            res[rowIndex + 1][columnIndex - gap] = "/";
+            writeArray(currNode.left, rowIndex + 2, columnIndex - gap * 2, res, height);
+        }
+
+        // 对右儿子进行判断，若有右儿子，则记录相应的"\"与右儿子的值
+        if (currNode.right != null) {
+            res[rowIndex + 1][columnIndex + gap] = "\\";
+            writeArray(currNode.right, rowIndex + 2, columnIndex + gap * 2, res, height);
+        }
+
     }
 
     public static int maxDepth(TreeNode root) {
@@ -112,7 +83,6 @@ public class TreeUtil {
         }
 
     }
-
 
     public static void createTree(TreeNode[] arr) {
         int len = arr.length;

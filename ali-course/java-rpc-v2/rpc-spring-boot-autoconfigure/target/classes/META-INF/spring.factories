@@ -1,0 +1,2 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.duym.dubbo2.rpc.config.RpcAutoConfiguration

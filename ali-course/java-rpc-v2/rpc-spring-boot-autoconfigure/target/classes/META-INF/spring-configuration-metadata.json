@@ -1,0 +1,85 @@
+{
+  "groups": [
+    {
+      "name": "rpc",
+      "type": "com.duym.dubbo2.rpc.config.properties.RpcProperties",
+      "sourceType": "com.duym.dubbo2.rpc.config.properties.RpcProperties"
+    },
+    {
+      "name": "rpc.client",
+      "type": "com.duym.dubbo2.rpc.config.properties.RpcClientProperties",
+      "sourceType": "com.duym.dubbo2.rpc.config.properties.RpcClientProperties"
+    },
+    {
+      "name": "rpc.server",
+      "type": "com.duym.dubbo2.rpc.config.properties.RpcServerProperties",
+      "sourceType": "com.duym.dubbo2.rpc.config.properties.RpcServerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "rpc.client.consumer-name",
+      "type": "java.lang.String",
+      "description": "服务提供者名称",
+      "sourceType": "com.duym.dubbo2.rpc.config.properties.RpcClientProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "rpc.consumer-path",
+      "type": "java.lang.String",
+      "description": "服务提供者保存地址",
+      "sourceType": "com.duym.dubbo2.rpc.config.properties.RpcProperties",
+      "defaultValue": "\/consumer"
+    },
+    {
+      "name": "rpc.path",
+      "type": "java.lang.String",
+      "description": "服务提供者保存地址",
+      "sourceType": "com.duym.dubbo2.rpc.config.properties.RpcProperties",
+      "defaultValue": "\/rpc"
+    },
+    {
+      "name": "rpc.provider-path",
+      "type": "java.lang.String",
+      "description": "服务提供者保存地址",
+      "sourceType": "com.duym.dubbo2.rpc.config.properties.RpcProperties",
+      "defaultValue": "\/provider"
+    },
+    {
+      "name": "rpc.register-address",
+      "type": "java.lang.String",
+      "description": "服务注册中心地址",
+      "sourceType": "com.duym.dubbo2.rpc.config.properties.RpcProperties",
+      "defaultValue": "127.0.0.1"
+    },
+    {
+      "name": "rpc.server-port",
+      "type": "java.lang.Integer",
+      "description": "服务暴露端口",
+      "sourceType": "com.duym.dubbo2.rpc.config.properties.RpcProperties",
+      "defaultValue": 2181
+    },
+    {
+      "name": "rpc.server.provider-name",
+      "type": "java.lang.String",
+      "description": "服务提供者名称",
+      "sourceType": "com.duym.dubbo2.rpc.config.properties.RpcServerProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "rpc.server.provider-port",
+      "type": "java.lang.Integer",
+      "description": "服务提供者端口",
+      "sourceType": "com.duym.dubbo2.rpc.config.properties.RpcServerProperties",
+      "defaultValue": 9527
+    },
+    {
+      "name": "rpc.server.weight",
+      "type": "java.lang.Integer",
+      "description": "权重，默认为1",
+      "sourceType": "com.duym.dubbo2.rpc.config.properties.RpcServerProperties",
+      "defaultValue": 1
+    }
+  ],
+  "hints": []
+}

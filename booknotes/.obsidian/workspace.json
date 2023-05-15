@@ -4,119 +4,81 @@
     "type": "split",
     "children": [
       {
-        "id": "879611acf1198d93",
+        "id": "5aed5b81c8d39670",
         "type": "tabs",
         "children": [
           {
-            "id": "705c93a70a60f266",
+            "id": "a3ae87abf2460c2e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-阿里课程/3-应用框架/1-Spring家族技术生态/4-Spring Boot 源码剖析/0-源码剖析.md",
+                "file": "zzz-别人好的笔记/最新Java面试题全集.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "47ca75d79b4bad51",
+            "id": "966e07078b1ef7e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-阿里课程/3-应用框架/1-Spring家族技术生态/4-Spring Boot 源码剖析/1-Spring Boot 源码环境搭建.md",
+                "file": "数据结构与算法/数据结构/1.链表/leetcode 链表的题.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "89ad14ecfd630067",
+            "id": "0c515879979df05b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-阿里课程/3-应用框架/1-Spring家族技术生态/4-Spring Boot 源码剖析/0-源码剖析.md",
+                "file": "数据结构与算法/课程安排/关于二叉树.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c34c75b8d940d2d0",
+            "id": "a5fc184420f4a188",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-阿里课程/3-应用框架/1-Spring家族技术生态/4-Spring Boot 源码剖析/3-Spring Boot 自动配置.md",
+                "file": "数据结构与算法/课程安排/关于二叉树.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "19fdc1b62a59b7b9",
+            "id": "1034d39f37ab62e0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "1-Java基础/设计模式/单例模式.md",
-                "mode": "source",
-                "source": false
+                "currentVersion": "1.2.8"
               }
             }
           },
           {
-            "id": "5bd2ba15b5b796fa",
+            "id": "46863da6317177fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-阿里课程/3-应用框架/6-Netty 基础知识/1. Socket编程.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f09882b381b1259b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0-阿里课程/3-应用框架/6-Netty 基础知识/2. NIO编程.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "49d588a36bd12893",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0-阿里课程/3-应用框架/6-Netty 基础知识/3.  Netty核心原理.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d07089f209a00b3d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0-阿里课程/3-应用框架/6-Netty 基础知识/4. Netty高级应用.md",
+                "file": "数据结构与算法/数据结构/2.树/0-前置学习内容/0-二叉树的理论基础.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -161,12 +123,20 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "3647ad3cc43b1841",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 303.5
+    "width": 359.5
   },
   "right": {
     "id": "ef4489c85874b0d8",
@@ -182,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-阿里课程/3-应用框架/6-Netty 基础知识/4. Netty高级应用.md",
+                "file": "数据结构与算法/课程安排/关于二叉树.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -199,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-阿里课程/3-应用框架/6-Netty 基础知识/4. Netty高级应用.md",
+                "file": "数据结构与算法/课程安排/关于二叉树.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -222,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-阿里课程/3-应用框架/6-Netty 基础知识/4. Netty高级应用.md"
+                "file": "数据结构与算法/课程安排/关于二叉树.md"
               }
             }
           },
@@ -239,7 +209,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.5
+    "width": 289.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -253,46 +224,47 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d07089f209a00b3d",
+  "active": "1034d39f37ab62e0",
   "lastOpenFiles": [
-    "0-阿里课程/3-应用框架/6-Netty 基础知识/3.  Netty核心原理.md",
-    "0-阿里课程/3-应用框架/6-Netty 基础知识/4. Netty高级应用.md",
+    "数据结构与算法/课程安排/红黑树.md",
+    "数据结构与算法/课程安排/关于二叉树.md",
     "0-阿里课程/3-应用框架/6-Netty 基础知识/2. NIO编程.md",
-    "zzz照片/Pasted image 20230419220121.png",
-    "zzz照片/Pasted image 20230419220042.png",
     "0-阿里课程/3-应用框架/6-Netty 基础知识/1. Socket编程.md",
-    "1-Java基础/设计模式/单例模式.md",
-    "1-Java基础/设计模式/动态代理/动态代理.md",
-    "0-阿里课程/3-应用框架/1-Spring家族技术生态/4-Spring Boot 源码剖析/4-Spring Boot Run 方法.md",
+    "数据结构与算法/数据结构/2.树/0-前置学习内容/0-二叉树的理论基础.md",
+    "数据结构与算法/数据结构/2.树/1-leetcode解法/leetcode114-二叉树展开为链表.md",
+    "数据结构与算法/数据结构/2.树/1-leetcode解法/leetcode111-二叉树的最小深度.md",
+    "数据结构与算法/数据结构/2.树/1-leetcode解法/leetcode110-平衡二叉树.md",
+    "数据结构与算法/数据结构/2.树/1-leetcode解法/leetcode101-对称二叉树.md",
+    "数据结构与算法/数据结构/2.树/0-前置学习内容/1-二叉树递归的模板.md",
+    "数据结构与算法/数据结构/2.树/0-前置学习内容/2-二叉树的打印和顺序存储转二叉树.md",
+    "并发/4-共享模型/共享模型.md",
+    "数据结构与算法/数据结构/1.链表/leetcode 链表的题.md",
+    "数据结构与算法/课程安排",
+    "数据结构与算法/数据结构/1.链表/19.删除链表的倒数第N个结点——mid.md",
+    "数据结构与算法/数据结构/2.树/1-leetcode解法/leetcode104-二叉树的最大深度.md",
+    "MyCache.md",
+    "zzz-别人好的笔记/最新Java面试题全集.md",
+    "推荐算法/UserCF和ItemCF.md",
+    "分布式技术/netty/NIO/NIO.md",
+    "1-Java基础/ThreadLocal/ThreadLocal及相关.md",
+    "spring源码/面试/SpringMVC工作流程(详-小白版）.md",
+    "spring源码/面试/谈谈Spring IOC的理解，原理和实现？.md",
     "0-阿里课程/3-应用框架/1-Spring家族技术生态/4-Spring Boot 源码剖析/3-Spring Boot 自动配置.md",
     "0-阿里课程/3-应用框架/1-Spring家族技术生态/4-Spring Boot 源码剖析/0-源码剖析.md",
-    "0-阿里课程/3-应用框架/1-Spring家族技术生态/4-Spring Boot 源码剖析/2-Spring Boot 依赖管理.md",
     "0-阿里课程/3-应用框架/1-Spring家族技术生态/4-Spring Boot 源码剖析/1-Spring Boot 源码环境搭建.md",
+    "1-Java基础/设计模式/单例模式.md",
+    "zzz照片/Pasted image 20230422214416.png",
+    "zzz照片/Pasted image 20230419220121.png",
+    "zzz照片/Pasted image 20230419220042.png",
     "0-阿里课程/3-应用框架/1-Spring家族技术生态/4-Spring Boot 源码剖析/未命名",
     "0-阿里课程/3-应用框架/1-Spring家族技术生态/4-Spring Boot 源码剖析",
     "0-阿里课程/3-应用框架/1-Spring家族技术生态/3-Spring Boot基本使用",
     "0-阿里课程/3-应用框架/1-Spring家族技术生态/2-Spring Security基本使用",
     "0-阿里课程/3-应用框架/1-Spring家族技术生态/1-Spring WebFlux基本使用",
-    "0-阿里课程/2-Java编程进阶/1-设计模式/0-设计模式.md",
     "0-阿里课程/3-应用框架/6-Netty 基础知识",
     "0-阿里课程/3-应用框架/5-Mybatis",
     "0-阿里课程/3-应用框架/4-Google Guava",
     "0-阿里课程/3-应用框架/3-Apache Commons Lang",
-    "0-阿里课程/3-应用框架/2-Spring Boot 源码剖析",
-    "0-阿里课程/2-Java编程进阶/3-Java基础知识/10-线程局部变量（ThreadLocal）.md",
-    "0-阿里课程/2-Java编程进阶/3-Java基础知识/9-内省.md",
-    "0-阿里课程/2-Java编程进阶/3-Java基础知识/8-反射.md",
-    "0-阿里课程/2-Java编程进阶/3-Java基础知识/7-动态代理.md",
-    "0-阿里课程/2-Java编程进阶/3-Java基础知识/6-注解（Annotation）.md",
-    "0-阿里课程/2-Java编程进阶/3-Java基础知识/5-线程池.md",
-    "0-阿里课程/2-Java编程进阶/2-Java并发编程/java.util.concurrent/1-CountDownLatch.md",
-    "0-阿里课程/2-Java编程进阶/2-Java并发编程/java.util.concurrent/2-CyclicBarrier.md",
-    "0-阿里课程/2-Java编程进阶/2-Java并发编程/java.util.concurrent/11-AtomicInteger.md",
-    "0-阿里课程/2-Java编程进阶/2-Java并发编程/java.util.concurrent/10-3 Condition.md",
-    "0-阿里课程/2-Java编程进阶/2-Java并发编程/java.util.concurrent/10-2 ReadWriteLock.md",
-    "0-阿里课程/2-Java编程进阶/2-Java并发编程/java.util.concurrent/10-1 Lock.md",
-    "0-阿里课程/2-Java编程进阶/2-Java并发编程/java.util.concurrent/9-CopyOnWriteArrayList.md",
-    "0-阿里课程/2-Java编程进阶/2-Java并发编程/java.util.concurrent/8-ConcurrentHashMap.md",
     "zzz照片/Pasted image 20230209151211.png",
     "zzz照片/Pasted image 20230407220522.png",
     "zzz照片/Pasted image 20230407173142.png",
@@ -300,7 +272,6 @@
     "zzz照片/images 3.png",
     "zzz照片/images 2.png",
     "zzz照片/Pasted image 20230406170657.png",
-    "zzz照片/Pasted image 20230406170559.png",
     "zzz照片/未命名.canvas"
   ]
 }

@@ -3,6 +3,8 @@ package com.wddmg.datastructure.binarytree.leetcode110;
 import com.wddmg.datastructure.binarytree.base.TreeNode;
 import com.wddmg.datastructure.binarytree.base.TreeUtil;
 
+import static com.wddmg.datastructure.binarytree.base.TreeUtil.print;
+
 
 /**
  * @author duym
@@ -12,7 +14,7 @@ public class Test1 {
     public static void main(String[] args) {
         TreeNode[] root = {new TreeNode(3),new TreeNode(9),new TreeNode(20),null,null,new TreeNode(15),new TreeNode(7)};
         TreeUtil.createTree(root);
-//        print(root[0]);
+        print(root[0]);
         boolean res = isBalanced(root[0]);
         System.out.println(res);
 
@@ -35,6 +37,5 @@ public class Test1 {
             return 0;
         }
         return Math.max(height(root.left), height(root.right)) + 1;
-
     }
 }

@@ -7,111 +7,120 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="java-webchat" />
         <module name="java-summer" />
-        <module name="spring-boot-starter-jooq" />
-        <module name="spring-boot-starter-json" />
         <module name="spring-boot-starter-undertow" />
-        <module name="lambda-and-stream" />
         <module name="spring-boot-starter-data-neo4j" />
         <module name="spring-boot-server-tests" />
-        <module name="user-test-all" />
-        <module name="spring-boot-starter-integration" />
-        <module name="spring-boot-starter" />
         <module name="spring-boot-starter-batch" />
-        <module name="spring-boot-starter-validation" />
         <module name="spring-boot-cli" />
-        <module name="spring-boot-devtools" />
-        <module name="spring-boot-configuration-processor-tests" />
         <module name="spring-boot-starter-web-services" />
-        <module name="yourbatis_test" />
         <module name="spring-boot-loader-tools" />
-        <module name="spring-boot-starter-data-couchbase" />
         <module name="spring-boot-starter-jta-bitronix" />
-        <module name="spring-boot-starter-data-ldap" />
-        <module name="spring-boot-starter-jdbc" />
         <module name="spring-boot-starter-aop" />
         <module name="spring-boot-starter-webflux" />
-        <module name="spring-boot-autoconfigure" />
         <module name="spring-boot-starter-amqp" />
         <module name="spring-boot-starter-data-redis-reactive" />
-        <module name="spring-boot-starter-websocket" />
         <module name="spring-boot-configuration-metadata" />
         <module name="spring-boot-starter-cache" />
         <module name="spring-boot-starter-reactor-netty" />
-        <module name="spring-boot-starter-data-elasticsearch" />
         <module name="spring-boot-starter-cloud-connectors" />
-        <module name="spring-boot-starter-data-rest" />
         <module name="spring-boot-starter-data-redis" />
         <module name="spring-boot-starter-jersey" />
         <module name="spring-boot-starter-mustache" />
-        <module name="spring-boot" />
         <module name="spring-boot-starter-data-cassandra" />
         <module name="spring-boot-starter-logging" />
-        <module name="spring-boot-starter-quartz" />
         <module name="spring-boot-starter-log4j2" />
         <module name="java-native" />
         <module name="spring-boot-starter-data-mongodb-reactive" />
-        <module name="spring-boot-loader" />
         <module name="user-test-summer" />
-        <module name="spring-boot-starter-oauth2-resource-server" />
         <module name="demo-spring-boot-starter" />
-        <module name="spring-boot-starter-tomcat" />
-        <module name="spring-boot-starter-oauth2-client" />
-        <module name="mybatis" />
         <module name="concurrent" />
-        <module name="user-test-orm" />
         <module name="spring-boot-starter-data-cassandra-reactive" />
         <module name="spring-boot-properties-migrator" />
-        <module name="my-nio" />
         <module name="spring-boot-starter-jta-atomikos" />
-        <module name="spring-boot-starter-data-mongodb" />
-        <module name="spring-boot-actuator" />
-        <module name="spring-boot-test-support" />
-        <module name="spring-boot-starter-groovy-templates" />
+        <module name="rpc-v2-api" />
         <module name="spring-boot-actuator-autoconfigure" />
-        <module name="spring-boot-devtools-tests" />
         <module name="spring-boot-starter-mail" />
+        <module name="rpc-v1-provider" />
         <module name="spring-boot-starter-data-solr" />
-        <module name="spring-boot-starter-activemq" />
         <module name="spring-boot-test" />
-        <module name="spring-boot-antlib" />
-        <module name="yourbatis" />
         <module name="spring-boot-starter-test" />
+        <module name="dubbo-test" />
+        <module name="rpc-spring-boot-autoconfigure" />
         <module name="spring-boot-configuration-docs" />
         <module name="spring-boot-starter-thymeleaf" />
         <module name="leetcode" />
-        <module name="spring-boot-starter-freemarker" />
         <module name="spring-boot-starter-hateoas" />
-        <module name="spring-boot-starter-rsocket" />
-        <module name="spring-boot-starter-data-couchbase-reactive" />
+        <module name="rpc-v1-consumer" />
         <module name="spring-boot-launch-script-tests" />
         <module name="spring-boot-starter-jetty" />
         <module name="spring-boot-starter-data-jdbc" />
         <module name="spring-boot-starter-actuator" />
         <module name="spring-boot-starter-web" />
         <module name="spring-boot-starter-data-jpa" />
-        <module name="spring-boot-maven-plugin" />
+        <module name="mycache" />
         <module name="spring-boot-starter-artemis" />
+        <module name="spring-boot-starter-security" />
+        <module name="java-webchat" />
+        <module name="spring-boot-starter-jooq" />
+        <module name="spring-boot-starter-json" />
+        <module name="lambda-and-stream" />
+        <module name="user-test-all" />
+        <module name="spring-boot-starter-integration" />
+        <module name="spring-boot-starter" />
+        <module name="rpc-spring-boot-starter" />
+        <module name="spring-boot-starter-validation" />
+        <module name="spring-boot-devtools" />
+        <module name="spring-boot-configuration-processor-tests" />
+        <module name="yourbatis_test" />
+        <module name="spring-boot-starter-data-couchbase" />
+        <module name="spring-boot-starter-data-ldap" />
+        <module name="spring-boot-starter-jdbc" />
+        <module name="spring-boot-autoconfigure" />
+        <module name="spring-boot-starter-websocket" />
+        <module name="rpc-v2-consumer" />
+        <module name="rpc-v2-provider" />
+        <module name="spring-boot-starter-data-elasticsearch" />
+        <module name="spring-boot-starter-data-rest" />
+        <module name="spring-boot" />
+        <module name="spring-boot-starter-quartz" />
+        <module name="spring-boot-loader" />
+        <module name="spring-boot-starter-oauth2-resource-server" />
+        <module name="spring-boot-starter-tomcat" />
+        <module name="spring-boot-starter-oauth2-client" />
+        <module name="mybatis" />
+        <module name="user-test-orm" />
+        <module name="my-nio" />
+        <module name="spring-boot-starter-data-mongodb" />
+        <module name="spring-boot-actuator" />
+        <module name="spring-boot-test-support" />
+        <module name="spring-boot-starter-groovy-templates" />
+        <module name="spring-boot-devtools-tests" />
+        <module name="spring-boot-starter-activemq" />
+        <module name="spring-boot-antlib" />
+        <module name="yourbatis" />
+        <module name="rpc-v1-api" />
+        <module name="spring-boot-starter-freemarker" />
+        <module name="spring-boot-starter-rsocket" />
+        <module name="spring-boot-starter-data-couchbase-reactive" />
+        <module name="spring-boot-maven-plugin" />
         <module name="myspring" />
         <module name="spring-boot-test-autoconfigure" />
-        <module name="spring-boot-starter-security" />
         <module name="spring-boot-docs" />
         <module name="java-orm" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8">
-      <module name="dynamic-proxy" target="1.8" />
-      <module name="mybayis-3-open-resource" target="1.8" />
-      <module name="observer" target="1.7" />
-      <module name="proxy" target="1.8" />
-      <module name="user-test" target="1.8" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="java-summer" options="-parameters" />
       <module name="java-webchat" options="-parameters" />
+      <module name="rpc-v1-api" options="-parameters" />
+      <module name="rpc-v1-consumer" options="-parameters" />
+      <module name="rpc-v1-provider" options="-parameters" />
+      <module name="rpc-v2-consumer" options="-parameters" />
+      <module name="rpc-v2-provider" options="-parameters" />
       <module name="spring-boot" options="-parameters" />
       <module name="spring-boot-actuator" options="-parameters" />
       <module name="spring-boot-actuator-autoconfigure" options="-parameters" />
@@ -191,7 +200,6 @@
       <module name="spring-boot-test" options="-parameters" />
       <module name="spring-boot-test-autoconfigure" options="-parameters" />
       <module name="spring-boot-test-support" options="-parameters" />
-      <module name="user-test" options="-parameters" />
       <module name="user-test-all" options="-parameters" />
     </option>
   </component>

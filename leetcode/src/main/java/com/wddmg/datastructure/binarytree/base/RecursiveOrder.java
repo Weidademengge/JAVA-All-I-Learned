@@ -5,6 +5,8 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 
+import static com.wddmg.datastructure.binarytree.base.TreeUtil.print;
+
 /**
  * 基础一：递归序,每次调用方法都要打印，结果为124442555213666377731
  *
@@ -28,19 +30,15 @@ public class RecursiveOrder {
         node2.right = node5;
         node3.left = node6;
         node3.right = node7;
-        /**
-         *                 1
-         *                / \
-         *               2   3
-         *              / \ / \
-         *             4  5 6  7
-         */
+
+        print(node1);
+
 
 //        System.out.println("递归序：");
 //        recursiveOrder(node1);
 //        System.out.println();
 //        System.out.println("先序：");
-//        preOrder(node1);
+        preOrder(node1);
 //        System.out.println();
 //        System.out.println("中序：");
 //        inOrder(node1);
@@ -52,16 +50,16 @@ public class RecursiveOrder {
 //        System.out.println();
 //        System.out.println("非递归先序：");
 //        preOrderUnRecur(node1);
-        System.out.println();
-        System.out.println("非递归中序：");
-        inOrderUnRecur(node1);
+//        System.out.println();
+//        System.out.println("非递归中序：");
+//        inOrderUnRecur(node1);
 //        System.out.println();
 //        System.out.println("非递归后续：");
 //        postOrderUnRecur(node1);
 //        System.out.println();
 //        System.out.println("================");
 //        System.out.println("bfs:");
-        bfs(node1);
+//        bfs(node1);
 
     }
 
