@@ -34,6 +34,7 @@
         <option value="$PROJECT_DIR$/ali-course/java-rpc-v1/rpc-v1-api/pom.xml" />
         <option value="$PROJECT_DIR$/ali-course/java-rpc-v2/pom.xml" />
         <option value="$PROJECT_DIR$/ali-course/java-rpc-v2/rpc-v2-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/ali-course/unit-test-all/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

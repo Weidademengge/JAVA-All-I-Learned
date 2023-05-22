@@ -159,6 +159,50 @@ public class RBTree<K extends Comparable<K>, V> implements Tree<K, V> {
         root.color = BLACK;
     }
 
+    // 前驱
+    private RBNode<K,V> predecessor(RBNode<K,V> node){
+        if(node == null){
+            return null;
+        }else if(node.left != null){
+            RBNode<K,V> predecessor = node.left;
+            while(predecessor.right != null){
+                predecessor = predecessor.right;
+            }
+            return predecessor;
+        }else{
+            // 不会执行
+            RBNode<K,V> predecessor = node.parent;
+            RBNode<K,V> cur = node;
+            while(predecessor != null && predecessor.right == cur){
+                cur = predecessor;
+                predecessor = predecessor.parent;
+            }
+            return predecessor;
+        }
+    }
+
+    // 后继
+    private RBNode<K,V> successor(RBNode<K,V> node){
+        if(node == null){
+            return null;
+        }else if(node.right != null){
+            RBNode<K,V> successor = node.right;
+            while(successor.left != null){
+                successor = successor.left;
+            }
+            return successor;
+        }else{
+            // 不会执行
+            RBNode<K,V> successor = node.parent;
+            RBNode<K,V> cur = node;
+            while(successor != null && successor.left == cur){
+                cur = successor;
+                successor = successor.parent;
+            }
+            return successor;
+        }
+    }
+
     private boolean colorOf(RBNode<K, V> node) {
         return node == null ? BLACK : node.color;
     }
@@ -183,9 +227,86 @@ public class RBTree<K extends Comparable<K>, V> implements Tree<K, V> {
 
     @Override
     public V remove(K key) {
-        return null;
+
+        RBNode<K,V> node = getNode(key);
+        if(node == null){
+            return null;
+        }
+        V oldValue = node.value;
+        deleteNode(node);
+        return oldValue;
     }
 
+    private void deleteNode(RBNode<K,V> node) {
+        if(node.left != null && node.right != null){
+            RBNode<K,V> successor = successor(node);
+            node.key = successor.key;
+            node.value = successor.value;
+            node = successor;
+        }
+        RBNode<K,V> replacement = node.left != null? node.left:node.right;
+        if(replacement != null){
+            replacement.parent = node.parent;
+            if(node.parent == null){
+                root = replacement;
+            } else if(node == node.parent.left){
+                node.parent.left = replacement;
+            } else{
+                node.parent.right =replacement;
+            }
+            node.left = node.right =node.parent = null;
+            if(node.color == BLACK){
+                fixAfterDeletion(node);
+            }
+        } else if (node.parent == null) {
+            root = null;
+        } else{
+            if(node.color == BLACK){
+                fixAfterDeletion(node);
+            }else{
+                if(node == node.parent.left){
+                    node.parent.left = null;
+                }else{
+                    node.parent.right = null;
+                }
+                node.parent = null;
+            }
+
+        }
+    }
+
+    private void fixAfterDeletion(RBNode<K,V> node) {
+        if(node != root && node.color == BLACK){
+            // node是左儿子
+            if(node == leftChild(parentOf(node))){
+                RBNode<K, V> bro = rightChild(parentOf(node));
+
+                if(colorOf(bro) == RED){
+                    setColor(bro, BLACK);
+                    setColor(parentOf(node), RED);
+                    leftRotate(parentOf(node));
+                    bro = rightChild(parentOf(node));
+                }
+            }
+        }
+        //一定是红->黑，删除红色，替换的节点的颜色改为黑色
+        setColor(node,BLACK);
+    }
+
+    private RBNode<K,V>  getNode(K key) {
+        RBNode<K,V>  node = this.root;
+        while(node != null){
+            int cmp = key.compareTo(node.key);
+            if(cmp < 0){
+                node = node.left;
+            }else if(cmp > 0){
+                node = node.right;
+            }else{
+                return node;
+            }
+        }
+        return null;
+    }
 
     public static class RBNode<K extends Comparable<K>, V> {
         private RBNode parent;

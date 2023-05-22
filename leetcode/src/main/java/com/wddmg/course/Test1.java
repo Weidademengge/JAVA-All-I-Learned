@@ -135,7 +135,7 @@ public class Test1 {
         list.forEach(e->System.out.print(e));
     }
 
-    public  static void BFS(TreeNode root){
+    public static void BFS(TreeNode root){
         if(root == null){
             return;
         }
@@ -163,11 +163,11 @@ public class Test1 {
             return;
         }
         List<List<Integer>> res = new ArrayList<>();
-        BFSAAA(root,1,res);
+        BFS(root,1,res);
         System.out.println(res);
     }
 
-    public static void BFSAAA(TreeNode node,int level,List<List<Integer>> res){
+    public static void BFS(TreeNode node,int level,List<List<Integer>> res){
         if(node == null){
             return;
         }
@@ -175,8 +175,8 @@ public class Test1 {
             res.add(new ArrayList<>());
         }
         res.get(level - 1).add(node.val);
-        BFSAAA(node.left,level+1,res);
-        BFSAAA(node.right,level+1,res);
+        BFS(node.left,level+1,res);
+        BFS(node.right,level+1,res);
     }
 
 }

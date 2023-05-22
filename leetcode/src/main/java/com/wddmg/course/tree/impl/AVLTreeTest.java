@@ -16,7 +16,7 @@ public class AVLTreeTest {
         avlTree.put(35,null);
 
         print(avlTree.getRoot());
-        avlTree.remove(60);
+        avlTree.remove(20);
         print(avlTree.getRoot());
 
     }

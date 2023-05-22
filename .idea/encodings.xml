@@ -205,6 +205,8 @@
     <file url="file://$PROJECT_DIR$/ali-course/spring-boot-2.2.9.RELEASE/target/generated-resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ali-course/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ali-course/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ali-course/unit-test-all/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ali-course/unit-test-all/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ali-course/user-test-all/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ali-course/user-test-orm/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ali-course/user-test-orm/src/main/resources" charset="UTF-8" />
