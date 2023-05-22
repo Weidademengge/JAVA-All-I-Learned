@@ -37,7 +37,7 @@ public class RpcClientHandler extends SimpleChannelInboundHandler<String> implem
     @Override
     protected synchronized void channelRead0(ChannelHandlerContext channelHandlerContext, String msg) throws Exception {
         responseMsg = msg;
-//唤醒等待的线程  
+        //唤醒等待的线程
         notify();
     }
 
@@ -46,9 +46,9 @@ public class RpcClientHandler extends SimpleChannelInboundHandler<String> implem
      */
     @Override
     public synchronized Object call() throws Exception {
-//消息发送  
+        //消息发送
         context.writeAndFlush(requestMsg);
-//线程等待  
+        //线程等待
         wait();
         return responseMsg;
     }

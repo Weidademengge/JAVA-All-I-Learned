@@ -59,17 +59,17 @@ public class RpcServerHandler extends SimpleChannelInboundHandler<String> implem
      */
     @Override
     protected void channelRead0(ChannelHandlerContext channelHandlerContext, String msg) throws Exception {
-//1.接收客户端请求- 将msg转化RpcRequest对象  
+        //1.接收客户端请求- 将msg转化RpcRequest对象
         RpcRequest rpcRequest = JSON.parseObject(msg, RpcRequest.class);
         RpcResponse rpcResponse = new RpcResponse();
         rpcResponse.setRequestId(rpcRequest.getRequestId());
         try {
-//业务处理  
+            //业务处理
             rpcResponse.setReturnValue(handler(rpcRequest));
         } catch (Exception e) {
             e.printStackTrace();
         }
-//6.给客户端进行响应  
+        //6.给客户端进行响应
         channelHandlerContext.writeAndFlush(JSON.toJSONString(rpcResponse));
 
     }
@@ -78,17 +78,17 @@ public class RpcServerHandler extends SimpleChannelInboundHandler<String> implem
      * 业务处理逻辑
      */
     public Object handler(RpcRequest rpcRequest) throws InvocationTargetException {
-// 3.根据传递过来的beanName从缓存中查找到对应的bean  
+        // 3.根据传递过来的beanName从缓存中查找到对应的bean
         Object serviceBean = SERVICE_INSTANCE_MAP.get(rpcRequest.getClassName());
         if (serviceBean == null) {
             throw new RuntimeException("根据beanName找不到服务,beanName:" + rpcRequest.getClassName());
         }
-//4.解析请求中的方法名称. 参数类型 参数信息  
+        //4.解析请求中的方法名称. 参数类型 参数信息
         Class<?> serviceBeanClass = serviceBean.getClass();
         String methodName = rpcRequest.getMethodName();
         Class<?>[] parameterTypes = rpcRequest.getParameterTypes();
         Object[] parameters = rpcRequest.getParameters();
-//5.反射调用bean的方法- CGLIB反射调用  
+        //5.反射调用bean的方法- CGLIB反射调用
         FastClass fastClass = FastClass.create(serviceBeanClass);
         FastMethod method = fastClass.getMethod(methodName, parameterTypes);
         return method.invoke(serviceBean, parameters);

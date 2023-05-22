@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ebanma.cloud.demo.data.dao.OrderDao">
+    <select id="selectOrderById" resultType="com.ebanma.cloud.demo.data.model.OrderDO">
+        select `id`,
+               `order_no`,
+               `member_id`,
+               `supplier_id`,
+               `product_id`,
+               `product_count`,
+               `product_amount_total`,
+               `order_amount_total`,
+               `address`,
+               `create_time`
+        from `order`
+        where `id` = #{id}
+    </select>
+</mapper>

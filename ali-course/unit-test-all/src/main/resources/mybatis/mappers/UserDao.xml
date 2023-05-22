@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ebanma.cloud.demo.data.dao.UserDao">
+    <insert id="create" useGeneratedKeys="true" keyProperty="create.id">
+        insert into user
+        ( name
+        , description
+        ) values
+        ( #{create.name}
+        , #{create.description}
+        )
+    </insert>
+
+    <update id="modify">
+        update user
+        set gmt_modified = current_timestamp
+        , name = #{modify.name}
+        , description = #{modify.description}
+        where id = #{modify.id}
+    </update>
+
+    <delete id="delete">
+        delete from user
+        where id = #{id}
+    </delete>
+
+    <select id="getIdByName" resultType="java.lang.Long">
+        select id
+        from user
+        where name = #{name}
+        limit 1
+    </select>
+</mapper>

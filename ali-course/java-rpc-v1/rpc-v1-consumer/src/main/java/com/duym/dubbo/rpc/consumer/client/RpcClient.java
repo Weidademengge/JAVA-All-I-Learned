@@ -43,11 +43,11 @@ public class RpcClient {
      */
     public void initClient() {
         try {
-//1. 创建线程组  
+            //1. 创建线程组
             group = new NioEventLoopGroup();
-//2. 创建启动助手  
+            //2. 创建启动助手
             Bootstrap bootstrap = new Bootstrap();
-//3. 设置参数  
+            //3. 设置参数
             bootstrap.group(group)
                     .channel(NioSocketChannel.class)
                     .option(ChannelOption.SO_KEEPALIVE, Boolean.TRUE)
@@ -56,14 +56,14 @@ public class RpcClient {
                         @Override
                         protected void initChannel(SocketChannel channel) throws Exception {
                             ChannelPipeline pipeline = channel.pipeline();
-//String类型编解码器  
+                            //String类型编解码器
                             pipeline.addLast(new StringDecoder());
                             pipeline.addLast(new StringEncoder());
-//添加客户端处理类  
+                            //添加客户端处理类
                             pipeline.addLast(rpcClientHandler);
                         }
                     });
-//4. 连接Netty服务端  
+            //4. 连接Netty服务端
             channel = bootstrap.connect(ip, port).sync().channel();
         } catch (Exception e) {
             e.printStackTrace();
